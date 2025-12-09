@@ -174,12 +174,14 @@ Asegurar que requirements.txt y streamlit_app.py estén bien nombrados
 Entrenar con pocas épocas en la nube (20–25)
 
 🔍 6. Posibles errores y su explicación
-Problema	Causa	Solución
-Predicción errónea	yfinance incluía datos de hoy	Cambiar end para detener en AYER
-Streamlit muestra “removeChild error”	Código comentado o ejecución fallida	Reescribir archivo / revisar logs
-TensorFlow falla en CPU	Modelo muy grande	Reducir épocas / usar GPU
-Requirements no cargan	Nombre incorrecto	requirements.txt EXACTO
-App se mata en la nube	Entrenamiento pesado	Bajar épocas o simplificar modelo
+| Problema                                  | Causa                           | Solución                               |
+|-------------------------------------------|---------------------------------|-----------------------------------------|
+| Predicción errónea                         | yfinance incluía datos de hoy   | Cambiar *end* para detener en AYER      |
+| Streamlit muestra “removeChild error”      | Código comentado o fallido      | Reescribir archivo / revisar logs       |
+| TensorFlow falla en CPU                    | Modelo muy grande               | Reducir épocas / usar GPU               |
+| Requirements no cargan                     | Nombre incorrecto               | requirements.txt EXACTO                 |
+| App se mata en la nube                     | Entrenamiento pesado            | Bajar épocas / simplificar modelo       |
+
 🧠 7. Base teórica (resumen técnico)
 
 El proyecto se fundamenta en principios de:
