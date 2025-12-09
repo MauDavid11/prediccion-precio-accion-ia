@@ -5,6 +5,9 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
+![Vista de la app](./assets/streamlit_preview.png)
+
+
 📘 Proceso del Proyecto, Inspiración y Base Técnica
 
 Este proyecto nació con el objetivo de crear un modelo de Inteligencia Artificial capaz de predecir el precio de cierre de una acción para el día actual, utilizando únicamente datos históricos hasta el día anterior.
