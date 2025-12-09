@@ -129,9 +129,6 @@ También desarrollamos:
 
 ✔ CLI (Command Line Interface)
 
-Permite ejecutar predicciones desde consola:
-
---python
 python prediccion_precio_accion_IA.py --ticker AAPL
 
 Esto lo convierte en un módulo automatizable para pipelines (MCP).
