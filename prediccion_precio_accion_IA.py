@@ -150,7 +150,7 @@ model.compile(
 model.summary()
 
 # ===========================
-# 6. Entrenamiento SIN EarlyStopping
+# 6. Entrenamiento
 # ===========================
 reduce_lr = ReduceLROnPlateau(
     monitor='val_loss',
@@ -161,10 +161,10 @@ reduce_lr = ReduceLROnPlateau(
 
 history = model.fit(
      X_train, y_train,
-     epochs=epochs,             # ahora SIEMPRE entrena las 80 épocas
+     epochs=epochs,             # Entrena las 80 épocas, se puede cambiar o implementar EarlyStopping
      batch_size=32,
      validation_split=0.1,
-     callbacks=[reduce_lr],  # solo el scheduler, sin EarlyStopping
+     callbacks=[reduce_lr],  # scheduler
      verbose=1
 )
 
