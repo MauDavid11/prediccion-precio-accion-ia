@@ -1,5 +1,7 @@
 # 📈 Predicción del Precio de Cierre de Acciones con IA (LSTM)
 
+[![Streamlit App](https://img.shields.io/badge/🔴%20Abrir%20App%20en%20Streamlit-FF4B4B?style=for-the-badge&logo=streamlit)](https://prediccion-precio-accion-ia-wgydgtdysijxzrgwrnazac.streamlit.app/)
+
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.20-orange)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
