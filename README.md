@@ -7,7 +7,19 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
 
-![Vista de la app](./assets/streamlit_preview.png)
+## 🖼️ Vista General de la Aplicación
+
+Aquí puedes ver una previsualización de la aplicación desplegada en Streamlit, incluyendo su interfaz principal y elementos más importantes.
+
+<p align="center">
+  <img src="assets/streamlit_preview.png" width="750">
+</p>
+
+<p align="center">
+  <img src="assets/streamlit_preview01.png" width="32%">
+  <img src="assets/streamlit_preview02.png" width="32%">
+  <img src="assets/streamlit_preview03.png" width="32%">
+</p>
 
 
 📘 Proceso del Proyecto, Inspiración y Base Técnica
