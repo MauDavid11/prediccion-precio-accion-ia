@@ -73,7 +73,7 @@ Usar la ventana estándar de 60 días
 
 Descargar datos hasta AYER, sin incluir valores intradía
 → esto fue un punto crítico: yfinance incluye valores de hoy si el mercado está abierto.
-→ Se solucionó usando end=today.strftime("%Y-%m-%d"), ya que el parámetro es exclusivo.
+→ Se solucionó usando end_date = today.strftime("%Y-%m-%d"), ya que el parámetro es exclusivo.
 
 Predicción del cierre del día actual (HOY) utilizando exclusivamente información pasada.
 
