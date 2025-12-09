@@ -73,7 +73,12 @@ Usar la ventana estándar de 60 días
 
 Descargar datos hasta AYER, sin incluir valores intradía
 → esto fue un punto crítico: yfinance incluye valores de hoy si el mercado está abierto.
-→ Se solucionó usando end_date = today.strftime("%Y-%m-%d"), ya que el parámetro es exclusivo.
+
+→ Se solucionó usando 
+```python
+end_date = today.strftime("%Y-%m-%d")  ya que el parámetro es exclusivo.
+
+```
 
 Predicción del cierre del día actual (HOY) utilizando exclusivamente información pasada.
 
@@ -129,7 +134,9 @@ También desarrollamos:
 
 ✔ CLI (Command Line Interface)
 
+```bash
 python prediccion_precio_accion_IA.py --ticker AAPL
+```
 
 Esto lo convierte en un módulo automatizable para pipelines (MCP).
 
@@ -213,4 +220,30 @@ Después de iterar sobre el modelo, corregir errores, optimizar la lógica y con
 ✔ Se puede ejecutar gratis
 ✔ Es un proyecto profesional apto para portafolio o presentación académica
 
-## 📌 Contenido del repositorio
+## 📌 Contenido del Repositorio
+
+El repositorio contiene los scripts, la app Streamlit, las dependencias y los recursos necesarios para entrenar el modelo LSTM, generar predicciones y ejecutar la aplicación web.
+
+```html
+prediccion-precio-accion-ia/
+│
+├── prediccion_precio_accion_IA.py       # Script principal con el modelo LSTM + CLI
+├── streamlit_app.py                     # Aplicación web Streamlit
+├── requirements.txt                     # Dependencias del proyecto
+├── assets/                              # Imágenes utilizadas en el README
+│   ├── streamlit_preview.png
+│   ├── streamlit_preview01.png
+│   ├── streamlit_preview02.png
+│   ├── streamlit_preview03.png
+│
+└── README.md                            # Documentación completa del proyecto
+```
+
+## 👥 Autores
+
+Este proyecto fue desarrollado por:
+
+- **Cristian Mauricio Mallama David**  
+- **Stephania Galvis Macias 🌷**
+- **Lis Dhalia Robles Castro**
+
